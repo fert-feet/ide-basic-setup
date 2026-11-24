@@ -1,0 +1,32 @@
+// Zed portable settings
+// Machine-specific paths, agent permissions, authentication, and theme-extension choices are intentionally omitted.
+{
+  "git": {
+    "diff_base": "head"
+  },
+  "buffer_font_weight": 400.0,
+  "buffer_font_family": "Maple Mono NF CN",
+  "terminal": {
+    "font_size": 15.0
+  },
+  "autosave": "on_focus_change",
+  "cli_default_open_behavior": "new_window",
+  "cursor_animation": {
+    "enabled": true
+  },
+  "vim": {
+    "show_edit_predictions_in_normal_mode": false,
+    "use_smartcase_find": true,
+    "toggle_relative_line_numbers": true
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 15.0,
+  "soft_wrap": "editor_width"
+}
